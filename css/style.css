@@ -202,6 +202,10 @@ section {
     margin-bottom: 3%;
 }
 
+.bts{
+    margin-bottom: 0 !important;
+}
+
 #media-link {
     font-family: "Alegreya Sans", sans-serif;
     color: #3C3C3C;
