@@ -1,0 +1,26 @@
+@media only screen and (max-width: 900px) {
+  .text {
+    width: 90%;
+  }
+  #video {
+  	width: 85%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #start-content img {
+    width: 80vw !important;
+  }
+  #start-heading h1 span {
+    font-size: 1.6rem !important;
+  }
+  h1 {
+    font-size: 1.3rem !important  ;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
