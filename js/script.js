@@ -6,9 +6,9 @@ $(window).on('load',function(){
 	$('#status').delay(4000).fadeOut();
 	$('#preloader').delay(4250).fadeOut();
 
-    if(!window.location.href.includes('index')){
+    if(!window.location.href.includes('about','aboutme','media','contact')){
         setTimeout(function() {
-            $('html').addClass('verticalScrollTrue').removeClass('verticalScrollFalse');
+            $('html').addClass('verticalScrollFalse').removeClass('verticalScrollTrue');
         }, 4250);
     }
 });
