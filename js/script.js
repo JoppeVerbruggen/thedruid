@@ -8,7 +8,7 @@ $(window).on('load',function(){
 
     if(!window.location.href.includes('index')){
         setTimeout(function() {
-            $('html').addClass('verticalScrollFalse').removeClass('verticalScrollTrue');
+            $('html').addClass('verticalScrollTrue').removeClass('verticalScrollFalse');
         }, 4250);
     }
 });
