@@ -5,12 +5,9 @@
 $(window).on('load',function(){
 	$('#status').delay(4000).fadeOut();
 	$('#preloader').delay(4250).fadeOut();
-
-    if(!window.location.href.includes('index')){
-        setTimeout(function() {
-            $('html').addClass('verticalScrollTrue').removeClass('verticalScrollFalse');
-        }, 4250);
-    }
+	setTimeout(function() {
+       		$('html').addClass('lightbg').removeClass('darkbg'); /* verberg scrollbar */
+    	}, 4250);
 });
 
 /*========================================
